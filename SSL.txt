@@ -6,3 +6,18 @@ In short: SSL keeps internet connections secure and prevents criminals from read
 
 
 https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate
+
+SSH vs SSL
+Here are some of the key differences between SSH and SSL:
+Secure Shell (SSH) is a network protocol that allows users to securely connect to another computer. It is often used to access remote servers and execute commands on them. SSH also allows for secure file transfer between computers.
+Secure Sockets Layer (SSL) and Transport Layer Security (TLS) are protocols that provide secure communication over a computer network. They are often used to protect data in transit between web browsers and web servers. SSL/TLS is also used to secure other types of communication, such as email and file transfers.
+Here is a table that summarizes the key differences between SSH and SSL:
+|Feature |SSH |SSL |
+|---|---|---|
+|Purpose |Secure remote access |Secure data transfer |
+|Port number |22 |443 |
+|Encryption algorithm |SSH-2, SSH-1 |TLS 1.2, TLS 1.3 |
+|Authentication |Public key, password |Public key, password, certificate |
+|Implementation |OpenSSH, PuTTY |OpenSSL, NSS |
+As you can see, SSH and SSL are two different protocols with different purposes. SSH is used for secure remote access, while SSL is used for secure data transfer. They use different encryption algorithms, run on different port numbers, and provide different levels of authentication and implementation.
+Difference between SSH and SSL -
